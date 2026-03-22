@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>4.0.4</version>
+        <relativePath/>
+    </parent>
+
+        <groupId>com.omnixys</groupId>
+    <artifactId>omnixys-bom</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+
+    <name>Omnixys BOM</name>
+    <description>Central dependency management for Omnixys ecosystem</description>
+    <url>https://github.com/omnixys/omnixys-bom</url>
+
+    <licenses>
+        <license>
+            <name>GPL-3.0-or-later</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>caleb-gyamfi</id>
+            <name>Caleb Gyamfi</name>
+            <email>caleb@omnixys.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/omnixys/omnixys-bom.git</connection>
+        <developerConnection>scm:git:ssh://github.com:omnixys/omnixys-bom.git</developerConnection>
+        <url>https://github.com/omnixys/omnixys-bom</url>
+    </scm>
+
+
+  <properties>
+        <java.version>25</java.version>
+
+        <spring.boot.version>4.0.4</spring.boot.version>
+        <otel.version>1.38.0</otel.version>
+                <lombok.version>1.18.32</lombok.version>
+
+
+        <omnixys.observability.version>1.0.0</omnixys.observability.version>
+        <omnixys.kafka.version>1.0.0</omnixys.kafka.version>
+        <omnixys.logger.version>1.0.0</omnixys.logger.version>
+        <omnixys.starter.version>1.0.0</omnixys.starter.version>
+    </properties>
+
+        <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/omnixys/omnixys-bom</url>
+        </repository>
+    </distributionManagement>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+                        <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-bom</artifactId>
+                <version>${otel.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+                        <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.omnixys</groupId>
+                <artifactId>omnixys-starter</artifactId>
+                <version>${omnixys.starter.version}</version>
+            </dependency>
+            
+          <dependency>
+                <groupId>com.omnixys.observability</groupId>
+                <artifactId>omnixys-observability</artifactId>
+                <version>${omnixys.observability.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.omnixys.kafka</groupId>
+                <artifactId>omnixys-kafka</artifactId>
+                <version>${omnixys.kafka.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.omnixys.logger</groupId>
+                <artifactId>omnixys-logger</artifactId>
+                <version>${omnixys.logger.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
