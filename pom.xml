@@ -6,9 +6,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-        <groupId>com.omnixys</groupId>
+    <groupId>com.omnixys</groupId>
     <artifactId>omnixys-bom</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <packaging>pom</packaging>
 
     <name>Omnixys BOM</name>
@@ -38,17 +38,17 @@
 
 
   <properties>
-        <java.version>25</java.version>
+      <java.version>25</java.version>
 
-        <spring.boot.version>4.0.4</spring.boot.version>
-        <otel.version>1.38.0</otel.version>
-                <lombok.version>1.18.32</lombok.version>
+      <spring.boot.version>4.0.4</spring.boot.version>
+      <otel.version>1.38.0</otel.version>
+      <lombok.version>1.18.32</lombok.version>
 
 
-        <omnixys.observability.version>2.0.0</omnixys.observability.version>
-        <omnixys.kafka.version>2.0.0</omnixys.kafka.version>
-        <omnixys.logger.version>2.0.0</omnixys.logger.version>
-        <omnixys.starter.version>2.0.0</omnixys.starter.version>
+        <omnixys.observability.version>1.0.0</omnixys.observability.version>
+        <omnixys.kafka.version>1.0.0</omnixys.kafka.version>
+        <omnixys.logger.version>1.0.0</omnixys.logger.version>
+        <omnixys.starter.version>1.0.0</omnixys.starter.version>
     </properties>
 
         <distributionManagement>
@@ -86,25 +86,25 @@
 
             <dependency>
                 <groupId>com.omnixys</groupId>
-                <artifactId>omnixys-starter</artifactId>
+                <artifactId>starter</artifactId>
                 <version>${omnixys.starter.version}</version>
             </dependency>
             
           <dependency>
-                <groupId>com.omnixys.observability</groupId>
-                <artifactId>omnixys-observability</artifactId>
+                <groupId>com.omnixys</groupId>
+                <artifactId>observability</artifactId>
                 <version>${omnixys.observability.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.omnixys.kafka</groupId>
-                <artifactId>omnixys-kafka</artifactId>
+                <groupId>com.omnixys</groupId>
+                <artifactId>kafka</artifactId>
                 <version>${omnixys.kafka.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.omnixys.logger</groupId>
-                <artifactId>omnixys-logger</artifactId>
+                <groupId>com.omnixys</groupId>
+                <artifactId>logger</artifactId>
                 <version>${omnixys.logger.version}</version>
             </dependency>
         </dependencies>
