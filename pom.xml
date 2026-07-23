@@ -25,7 +25,7 @@
         <developer>
             <id>caleb-gyamfi</id>
             <name>Caleb Gyamfi</name>
-            <email>caleb@omnixys.com</email>
+            <email>caleb.gyamfi@omnixys.com</email>
         </developer>
     </developers>
 
@@ -40,17 +40,23 @@
         <maven.compiler.release>26</maven.compiler.release>
         <spring.boot.version>4.1.0</spring.boot.version>
 
-        <omnixys.commons.version>1.0.0</omnixys.commons.version>
-        <omnixys.observability.version>1.0.0</omnixys.observability.version>
-        <omnixys.kafka.version>1.0.0</omnixys.kafka.version>
-        <omnixys.logger.version>1.0.0</omnixys.logger.version>
+        <omnixys.commons.version>1.0.4</omnixys.commons.version>
+        <omnixys.context.version>1.0.2</omnixys.context.version>
+
+        <omnixys.cache.version>1.0.3</omnixys.cache.version>
+        <omnixys.storage.version>1.0.2</omnixys.storage.version>
+        <omnixys.validation.version>1.0.2</omnixys.validation.version>
+        <omnixys.observability.version>1.1.2</omnixys.observability.version>
+
+        <omnixys.logger.version>1.0.3</omnixys.logger.version>
+        <omnixys.kafka.version>1.0.3</omnixys.kafka.version>
         <omnixys.security-starter.version>1.0.0</omnixys.security-starter.version>
-        <omnixys.starter.version>1.0.0</omnixys.starter.version>
+
+        <omnixys.starter.version>1.0.1</omnixys.starter.version>
         <omnixys.test-common.version>1.0.0</omnixys.test-common.version>
-        <omnixys.context.version>1.0.0</omnixys.context.version>
-        <omnixys.cache.version>1.0.0</omnixys.cache.version>
-        <omnixys.storage.version>1.0.0</omnixys.storage.version>
-        <omnixys.validation.version>1.0.0</omnixys.validation.version>
+
+        
+        
     </properties>
 
     <distributionManagement>
