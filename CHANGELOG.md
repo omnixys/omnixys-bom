@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.2](https://github.com/omnixys/omnixys-bom/compare/v1.0.1...v1.0.2) (2026-07-25)
+
+### Deps
+
+* **Deps:** update observability version ([](https://github.com/omnixys/omnixys-bom/commit/93437e6cd19076aced892309276ae4c3d6cbd0b9))
+
 ## [1.0.1](https://github.com/omnixys/omnixys-bom/compare/v1.0.0...v1.0.1) (2026-07-23)
 
 ### Deps
