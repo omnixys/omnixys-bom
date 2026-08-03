@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.6](https://github.com/omnixys/omnixys-bom/compare/v1.0.5...v1.0.6) (2026-08-03)
+
+### Deps
+
+* **Deps:** update starter deps ([](https://github.com/omnixys/omnixys-bom/commit/06efa0ecbb19473e5b8421a2269bf292988e31fb))
+
 ## [1.0.5](https://github.com/omnixys/omnixys-bom/compare/v1.0.4...v1.0.5) (2026-08-03)
 
 ### Deps
