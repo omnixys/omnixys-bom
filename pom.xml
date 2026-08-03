@@ -52,7 +52,7 @@
         <omnixys.kafka.version>1.0.4</omnixys.kafka.version>
         <omnixys.security-starter.version>2.0.0</omnixys.security-starter.version>
 
-        <omnixys.starter.version>1.0.4</omnixys.starter.version>
+        <omnixys.starter.version>1.0.5</omnixys.starter.version>
         <omnixys.test-common.version>1.0.0</omnixys.test-common.version>
 
         
