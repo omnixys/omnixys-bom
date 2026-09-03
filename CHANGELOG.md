@@ -3,6 +3,24 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.7](https://github.com/omnixys/omnixys-bom/compare/v1.0.6...v1.0.7) (2026-09-03)
+
+### Agent
+
+* **Agent:** add repository development instructions ([](https://github.com/omnixys/omnixys-bom/commit/a3382a400518f7e9c592e6bc2ef04c8ed528be9c))
+
+### Ci
+
+* **Ci:** align CI structure with full workflow set, 3-job release, and pinned conventionalcommits ([](https://github.com/omnixys/omnixys-bom/commit/8015219747d3ee74c7ae7b45a7937ba2079cdc59))
+
+### Other
+
+* **Other:** Merge pull request #1 from omnixys/migration/uuid-v7 ([](https://github.com/omnixys/omnixys-bom/commit/06a46845aa43788fa3a2871d00b627fe21feda60)), closes [#1](https://github.com/omnixys/omnixys-bom/issues/1)
+
+### Runtime
+
+* **Runtime:** align spring boot version and build toolchain to local standard ([](https://github.com/omnixys/omnixys-bom/commit/cdc5e3b04c8bf0b2d988c5eb0ddf9b1f1b9a8023))
+
 ## [1.0.6](https://github.com/omnixys/omnixys-bom/compare/v1.0.5...v1.0.6) (2026-08-03)
 
 ### Deps
